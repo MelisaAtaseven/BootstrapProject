@@ -1,0 +1,128 @@
+nav {
+    background-color: #f44336;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+.nav-link {
+    color:#fff!important;
+    font-size:1.2rem;
+    padding: 0.7rem 1.5rem!important;
+}
+.nav-link:hover {
+    color: #000!important;
+    background-color:#fff!important;
+}
+.active {
+    background-color: #fff;
+    color: #000!important;
+}
+.navbar {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.navbar-toggler {
+    margin-left:auto;
+    margin-right:auto;
+}
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+#banner {
+    padding-top:18vh;
+    padding-bottom:13vh;
+    background-color: #f44336;
+}
+#banner h1 {
+    font-size:4rem;
+    font-weight: normal;
+    letter-spacing:0.3rem;
+}
+#banner h3 {
+    font-size:1.6rem;
+    font-weight:normal;
+    margin-top:35px;
+    margin-bottom:60px;
+    letter-spacing:0.2rem;
+}
+#banner .btn-default {
+    background-color:#000;
+    color: #fff;
+    border-radius:0;
+    font-size:1.1rem;
+    padding:0.6rem 1.5rem;
+}
+#banner .btn-default:hover {
+    background-color:#ddd;
+    color:#000;
+}
+#icerik1 {
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+#icerik2 {
+    padding-top:7rem;
+    padding-bottom:7rem;
+    background-color: #eee;
+}
+#icerik1 h2,
+#icerik2 h2 {
+    font-size: 2.2rem;
+    font-weight:normal;
+}
+#icerik1 p,
+#icerik2 p {
+    font-size:1.2rem;
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+#icerik1 p:last-child,
+#icerik2 p:last-child {
+   font-size:1rem;
+   color:#666;
+}
+#icerik1 i,
+#icerik2 i {
+    font-size: 13rem;
+    color:#f44336;
+}
+#yazi {
+    padding-top:5rem;
+    padding-bottom:5rem;
+    background-color:#666;
+}
+#yazi p {
+    font-size:1.6rem;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+}
+footer {
+    padding-top:5rem;
+    padding-bottom:5rem;
+    color:#333;
+}
+footer .link {
+    color:#333;
+}
+footer i {
+    color:#333;
+    margin-left: 0.3rem;
+    margin-right:0.3rem;
+    font-size:1.3rem;
+}
+footer i:hover {
+    color:#f44336;
+}
+@media (max-width:1200px) {
+    
+}
+@media (max-width:992px) {
+   
+}
+@media (max-width:768px) {
+   
+}
+@media (max-width:576px) {
+    
+}
